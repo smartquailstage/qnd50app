@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./qnd20app
+        working-directory: ./qnd50app
     env:
       DJANGO_SECRET_KEY: test-key-not-good
       NAME_DB: node0db
